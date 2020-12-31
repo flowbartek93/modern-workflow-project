@@ -3,9 +3,9 @@
 
     p {
 
-        line-height: 1.5;
-        font-size: 1.125;
-        margin: 1.8rem 0;
+        line-height: 1.65;
+        margin: 0 0 1.8rem 0;
+        font-weight: 300;
 
 
         @mixin atSmall {
