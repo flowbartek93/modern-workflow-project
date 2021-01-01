@@ -8,10 +8,10 @@ img {
   height: auto;
 }
 
-a {
-  color: $mainOrange;
-}
-
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
 }
