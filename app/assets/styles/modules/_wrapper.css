@@ -10,6 +10,10 @@
     max-width: 976px;
   }
 
+  &--narrow {
+    max-width: 976px;
+  }
+
   &--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
@@ -33,6 +37,7 @@
   .wrapper {
     padding-left: 0;
     padding-right: 0;
+
   }
 
   &--b-margin {
