@@ -22,9 +22,9 @@ class RevealOnScroll {
 
         window.addEventListener('scroll', this.scrollThrottle);
         window.addEventListener('resize', debounce(() => {
-            console.log('resze just ran')
+
             this.browserHeight = window.innerHeight;
-            console.log(this.browserHeight)
+
 
 
         }, 333))
@@ -50,7 +50,7 @@ class RevealOnScroll {
     calculateIfScrolledTo(item) {
 
         if (window.scrollY + this.browserHeight > item.offsetTop) {
-            console.log('elemant was calced');
+
 
             let scrollPercent = (item.getBoundingClientRect().top / this.browserHeight) * 100;
 
@@ -76,7 +76,7 @@ class RevealOnScroll {
             item.classList.add('reveal-item')
 
             item.isRevealed = false;
-            console.log(item);
+
 
 
         })
